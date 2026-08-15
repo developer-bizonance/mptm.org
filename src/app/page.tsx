@@ -67,11 +67,9 @@ export default function Home() {
           >
             <span>Developed by</span>
             <div className="bg-white/95 px-2.5 py-1 rounded-md shadow-xs border border-amber-300/40 flex items-center justify-center transition-transform duration-200 group-hover:scale-105">
-              <Image
+              <img
                 src="/bizonance.png"
                 alt="Bizonance Technologies"
-                width={140}
-                height={40}
                 className="h-5 sm:h-6 w-auto object-contain"
               />
             </div>
