@@ -55,11 +55,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/favicon.png", type: "image/png" },
       { url: "/favicon.ico" },
-      { url: "/mptm.png", sizes: "192x192", type: "image/png" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/mptm.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग | MPTM Amravati",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     siteName: "MPTM Amravati",
     images: [
       {
-        url: "https://mptm-org.vercel.app/mptm.png",
+        url: `${siteUrl}/favicon.png`,
         width: 800,
         height: 800,
         alt: "MPTM Amravati Logo",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग",
     description:
       "महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग - एकता, प्रगती आणि समाजसेवेचा संकल्प!",
-    images: ["https://mptm-org.vercel.app/mptm.png"],
+    images: [`${siteUrl}/favicon.png`],
   },
   robots: {
     index: true,
@@ -109,7 +109,7 @@ export default function RootLayout({
     name: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग",
     alternateName: "MPTM Amravati",
     url: siteUrl,
-    logo: `${siteUrl}/mptm.png`,
+    logo: `${siteUrl}/favicon.png`,
     description:
       "महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग - एकता, प्रगती आणि समाजसेवेचा संकल्प. अधिकृत सदस्य नोंदणी पोर्टल.",
     address: {
@@ -126,11 +126,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${devanagari.variable} h-full antialiased`}
     >
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/mptm.png" />
-        <meta property="og:image" content="https://mptm-org.vercel.app/mptm.png" />
-        <meta property="og:image:secure_url" content="https://mptm-org.vercel.app/mptm.png" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta property="og:image" content={`${siteUrl}/favicon.png`} />
+        <meta property="og:image:secure_url" content={`${siteUrl}/favicon.png`} />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="800" />
