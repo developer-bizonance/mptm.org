@@ -70,8 +70,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${siteUrl}/favicon.png`,
-        width: 800,
-        height: 800,
+        width: 300,
+        height: 300,
         alt: "MPTM Amravati Logo",
       },
     ],
@@ -132,8 +132,8 @@ export default function RootLayout({
         <meta property="og:image" content={`${siteUrl}/favicon.png`} />
         <meta property="og:image:secure_url" content={`${siteUrl}/favicon.png`} />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="800" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
