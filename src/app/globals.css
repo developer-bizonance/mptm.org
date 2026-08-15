@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Baloo+2:wght@400;500;600;700;800&family=Yatra+One&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -9,12 +9,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Noto Sans Devanagari', var(--font-devanagari), system-ui, -apple-system, sans-serif;
+  font-family: 'Tiro Devanagari Marathi', 'Baloo 2', 'Noto Sans Devanagari', serif;
   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, button, input, select, textarea {
-  font-family: 'Noto Sans Devanagari', var(--font-devanagari), system-ui, -apple-system, sans-serif;
+  font-family: 'Tiro Devanagari Marathi', 'Baloo 2', 'Noto Sans Devanagari', serif;
 }
 
 /* Custom ornamental border & glow utilities */
