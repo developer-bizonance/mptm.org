@@ -58,20 +58,20 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Right Side: Developed by Bizonance Logo Link */}
+          {/* Right Side: Developed by Bizonance Text Link */}
           <a
             href="https://bizonance.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2.5 text-xs font-semibold text-amber-200/90 hover:opacity-95 transition group"
+            className="flex items-center gap-2 text-xs font-semibold text-amber-200/90 hover:opacity-95 transition group"
           >
             <span>Developed by</span>
             <div className="bg-white/95 px-2.5 py-1 rounded-md shadow-xs border border-amber-300/40 flex items-center justify-center transition-transform duration-200 group-hover:scale-105">
-              <img
-                src="/bizonance.png"
-                alt="Bizonance Technologies"
-                className="h-5 sm:h-6 w-auto object-contain"
-              />
+              <span className="font-extrabold tracking-wide text-xs sm:text-sm font-sans">
+                <span className="text-[#1D4ED8]">B</span>
+                <span className="text-[#DC2626]">i</span>
+                <span className="text-[#1D4ED8]">ZONANCE</span>
+              </span>
             </div>
           </a>
         </div>
