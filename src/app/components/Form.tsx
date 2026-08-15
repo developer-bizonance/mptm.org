@@ -484,7 +484,7 @@ export default function Form() {
                                                 महाराष्ट्र प्रांतिक तैलिक महासभा
                                             </h2>
                                             <p className="text-[11px] sm:text-sm text-sky-200 font-bold">
-                                                अमरावती विभाग, अमरावती
+                                                अमरावती विभाग, अमरावती.
                                             </p>
                                             <div className="inline-block mt-1">
                                                 <span className="bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 text-amber-100 font-extrabold text-[10px] sm:text-sm px-3 sm:px-4 py-0.5 rounded-full border border-amber-400 shadow-xs">

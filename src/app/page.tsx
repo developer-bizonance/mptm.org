@@ -51,7 +51,7 @@ export default function Home() {
           {/* Left Side: Organization Title & Copyright */}
           <div className="text-center sm:text-left">
             <p className="text-sm sm:text-base font-bold text-amber-400">
-              महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग
+              महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग अमरावती.
             </p>
             <p className="text-xs text-amber-200/80 mt-0.5">
               © {new Date().getFullYear()} सर्व हक्क सुरक्षित
