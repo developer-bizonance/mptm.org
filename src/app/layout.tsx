@@ -55,11 +55,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
       { url: "/favicon.ico" },
+      { url: "/mptm.png", sizes: "192x192", type: "image/png" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/favicon.ico",
+    apple: "/mptm.png",
   },
   openGraph: {
     title: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग | MPTM Amravati",
@@ -69,10 +69,10 @@ export const metadata: Metadata = {
     siteName: "MPTM Amravati",
     images: [
       {
-        url: `${siteUrl}/favicon.png`,
-        width: 300,
-        height: 300,
-        alt: "MPTM Amravati Logo",
+        url: `${siteUrl}/Share.jpeg`,
+        width: 800,
+        height: 600,
+        alt: "MPTM Amravati Share Banner",
       },
     ],
     locale: "mr_IN",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग",
     description:
       "महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग - एकता, प्रगती आणि समाजसेवेचा संकल्प!",
-    images: [`${siteUrl}/favicon.png`],
+    images: [`${siteUrl}/Share.jpeg`],
   },
   robots: {
     index: true,
@@ -109,7 +109,7 @@ export default function RootLayout({
     name: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग",
     alternateName: "MPTM Amravati",
     url: siteUrl,
-    logo: `${siteUrl}/favicon.png`,
+    logo: `${siteUrl}/Share.jpeg`,
     description:
       "महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग - एकता, प्रगती आणि समाजसेवेचा संकल्प. अधिकृत सदस्य नोंदणी पोर्टल.",
     address: {
@@ -126,14 +126,14 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${devanagari.variable} h-full antialiased`}
     >
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="shortcut icon" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
-        <meta property="og:image" content={`${siteUrl}/favicon.png`} />
-        <meta property="og:image:secure_url" content={`${siteUrl}/favicon.png`} />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="300" />
-        <meta property="og:image:height" content="300" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/mptm.png" />
+        <meta property="og:image" content={`${siteUrl}/Share.jpeg`} />
+        <meta property="og:image:secure_url" content={`${siteUrl}/Share.jpeg`} />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
