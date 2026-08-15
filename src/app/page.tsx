@@ -45,15 +45,30 @@ export default function Home() {
         <Form />
       </main>
 
-      {/* Simple Footer */}
-      <footer className="bg-[#300202] text-amber-100 border-t border-amber-500/30 py-6 text-center print:hidden">
-        <div className="max-w-7xl mx-auto px-4">
-          <p className="text-sm font-bold text-amber-400">
-            महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग
-          </p>
-          <p className="text-xs text-amber-200/80 mt-1">
-            © {new Date().getFullYear()} सर्व हक्क सुरक्षित | जय संताजी!
-          </p>
+      {/* Footer */}
+      <footer className="bg-[#300202] text-amber-100 border-t border-amber-500/30 py-4 print:hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          {/* Left Side: Organization Title & Copyright */}
+          <div className="text-center sm:text-left">
+            <p className="text-sm sm:text-base font-bold text-amber-400">
+              महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग
+            </p>
+            <p className="text-xs text-amber-200/80 mt-0.5">
+              © {new Date().getFullYear()} सर्व हक्क सुरक्षित
+            </p>
+          </div>
+
+          {/* Right Side: Developed by Bizonance Logo */}
+          <div className="flex items-center gap-2 text-xs font-semibold text-amber-200/90">
+            <span>Developed by</span>
+            <Image
+              src="/bizonance.png"
+              alt="Bizonance Logo"
+              width={140}
+              height={40}
+              className="h-7 w-auto object-contain brightness-110"
+            />
+          </div>
         </div>
       </footer>
     </div>
