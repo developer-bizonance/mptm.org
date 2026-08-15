@@ -139,7 +139,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-full flex flex-col font-sans bg-[#FDFBF7] text-slate-900">
+      <body className={`${devanagari.className} min-h-full flex flex-col bg-[#FDFBF7] text-slate-900`}>
         {children}
       </body>
     </html>
