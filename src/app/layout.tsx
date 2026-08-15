@@ -18,7 +18,7 @@ const devanagari = Noto_Sans_Devanagari({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mptmamravati.org";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mptm-org.vercel.app";
 
 export const viewport: Viewport = {
   themeColor: "#4A0404",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     siteName: "MPTM Amravati",
     images: [
       {
-        url: "/mptm.png",
+        url: "https://mptm-org.vercel.app/mptm.png",
         width: 800,
         height: 800,
         alt: "MPTM Amravati Logo",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग",
     description:
       "महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग - एकता, प्रगती आणि समाजसेवेचा संकल्प!",
-    images: ["/mptm.png"],
+    images: ["https://mptm-org.vercel.app/mptm.png"],
   },
   robots: {
     index: true,
@@ -126,6 +126,14 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${devanagari.variable} h-full antialiased`}
     >
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/mptm.png" />
+        <meta property="og:image" content="https://mptm-org.vercel.app/mptm.png" />
+        <meta property="og:image:secure_url" content="https://mptm-org.vercel.app/mptm.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="800" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
