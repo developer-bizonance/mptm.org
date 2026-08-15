@@ -19,7 +19,7 @@ export default function Home() {
               <h1 className="text-base sm:text-xl font-bold text-white leading-tight">
                 महाराष्ट्र प्रांतिक तैलिक महासभा
               </h1>
-              <div className="text-xs text-amber-200/80">अमरावती विभाग, अमरावती</div>
+              <div className="text-xs text-amber-200/80">अमरावती विभाग, अमरावती.</div>
             </div>
           </div>
         </div>

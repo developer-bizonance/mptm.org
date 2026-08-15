@@ -477,10 +477,10 @@ export default function Form() {
 
                                         {/* Center Title Box matching physical reference receipt */}
                                         <div className="text-center mx-auto space-y-0.5">
-                                            <p className="text-[11px] sm:text-sm font-bold text-amber-400 tracking-wider">
+                                            <p className="text-[11px] sm:text-sm font-bold text-amber-400">
                                                 ❖ जय संताजी ❖
                                             </p>
-                                            <h2 className="text-base sm:text-2xl font-black text-amber-200 tracking-wide drop-shadow-md leading-tight">
+                                            <h2 className="text-base sm:text-2xl font-black text-amber-200 drop-shadow-md leading-tight">
                                                 महाराष्ट्र प्रांतिक तैलिक महासभा
                                             </h2>
                                             <p className="text-[11px] sm:text-sm text-sky-200 font-bold">
