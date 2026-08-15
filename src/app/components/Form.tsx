@@ -105,7 +105,7 @@ function convertNumberToMarathiWords(amountStr: string): string {
 
 export default function Form() {
     const DEFAULT_BASE_FEE = 101;
-    const FULL_SANDESH_MESSAGE = "वरील रक्कम महाराष्ट्र प्रांतिक तैलिका महासभेच्या प्राथमिक सदस्य नोंदणी शुल्क म्हणून प्राप्त झाली.";
+    const FULL_SANDESH_MESSAGE = "वरील रक्कम महाराष्ट्र प्रांतिक तैलिक महासभेच्या प्राथमिक सदस्य नोंदणी शुल्क म्हणून प्राप्त झाली.";
 
     const [baseMemberSeq, setBaseMemberSeq] = useState(1);
 
@@ -481,7 +481,7 @@ export default function Form() {
                                                 ❖ जय संताजी ❖
                                             </p>
                                             <h2 className="text-base sm:text-2xl font-black text-amber-200 tracking-wide drop-shadow-md leading-tight">
-                                                महाराष्ट्र प्रांतिक तैलिका महासभा
+                                                महाराष्ट्र प्रांतिक तैलिक महासभा
                                             </h2>
                                             <p className="text-[11px] sm:text-sm text-sky-200 font-bold">
                                                 अमरावती विभाग, अमरावती

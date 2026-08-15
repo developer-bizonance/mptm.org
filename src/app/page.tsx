@@ -16,9 +16,9 @@ export default function Home() {
             </div>
             <div>
               <div className="text-amber-400 text-xs font-semibold tracking-wider">जय संताजी</div>
-              <div className="text-base sm:text-xl font-bold text-white leading-tight">
-                महाराष्ट्र प्रांतिक तैलिका महासभा
-              </div>
+              <h1 className="text-base sm:text-xl font-bold text-white leading-tight">
+                महाराष्ट्र प्रांतिक तैलिक महासभा
+              </h1>
               <div className="text-xs text-amber-200/80">अमरावती विभाग, अमरावती</div>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="w-full relative">
           <Image
             src="/mptmm.png"
-            alt="महाराष्ट्र प्रांतिक तैलिका महासभा अमरावती विभाग"
+            alt="महाराष्ट्र प्रांतिक तैलिक महासभा अमरावती विभाग"
             width={1920}
             height={550}
             priority
@@ -49,7 +49,7 @@ export default function Home() {
       <footer className="bg-[#300202] text-amber-100 border-t border-amber-500/30 py-6 text-center print:hidden">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-sm font-bold text-amber-400">
-            महाराष्ट्र प्रांतिक तैलिका महासभा - अमरावती विभाग
+            महाराष्ट्र प्रांतिक तैलिक महासभा - अमरावती विभाग
           </p>
           <p className="text-xs text-amber-200/80 mt-1">
             © {new Date().getFullYear()} सर्व हक्क सुरक्षित | जय संताजी!
