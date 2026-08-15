@@ -58,17 +58,24 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Right Side: Developed by Bizonance Logo */}
-          <div className="flex items-center gap-2 text-xs font-semibold text-amber-200/90">
+          {/* Right Side: Developed by Bizonance Logo Link */}
+          <a
+            href="https://bizonance.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2.5 text-xs font-semibold text-amber-200/90 hover:opacity-95 transition group"
+          >
             <span>Developed by</span>
-            <Image
-              src="/bizonance.png"
-              alt="Bizonance Logo"
-              width={140}
-              height={40}
-              className="h-7 w-auto object-contain brightness-110"
-            />
-          </div>
+            <div className="bg-white/95 px-2.5 py-1 rounded-md shadow-xs border border-amber-300/40 flex items-center justify-center transition-transform duration-200 group-hover:scale-105">
+              <Image
+                src="/bizonance.png"
+                alt="Bizonance Technologies"
+                width={140}
+                height={40}
+                className="h-5 sm:h-6 w-auto object-contain"
+              />
+            </div>
+          </a>
         </div>
       </footer>
     </div>
